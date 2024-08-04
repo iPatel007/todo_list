@@ -2,6 +2,15 @@
 
 A new Flutter project with name "TODO LIST".
 
+What we covered.
+
+- App icon
+- Splash Screen
+- Manage screen with `No Data Found + Image` when no task/item added initially
+- List of tasks/items
+- Swipe to delete task/item
+- Add task/item
+- Update Task/item
 
 ## Setup Instructions
 
@@ -27,6 +36,8 @@ A new Flutter project with name "TODO LIST".
 This application uses the [`stacked`](https://pub.dev/packages/stacked) package for state management. The `TodoViewModel and TodoDetailsViewModel` classes handles the business logic and state of the application, which is consumed by the UI using `ViewModelBuilder`.
 
 ## Basic Structures of the project
+
+https://github.com/iPatel007/todo_list/blob/main/assets/images/readme/imgStructure.png
 
 1. core 
    ```bash
