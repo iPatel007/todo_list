@@ -7,7 +7,7 @@ A new Flutter project with name "TODO LIST".
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/iPatel007/todo_list.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -24,7 +24,25 @@ A new Flutter project with name "TODO LIST".
 
 ## State Management
 
-This application uses the `stacked` package for state management. The `TodoViewModel` class handles the business logic and state of the application, which is consumed by the UI using `ViewModelBuilder`.
+This application uses the [`stacked`](https://pub.dev/packages/stacked) package for state management. The `TodoViewModel and TodoDetailsViewModel` classes handles the business logic and state of the application, which is consumed by the UI using `ViewModelBuilder`.
+
+## Basic Structures of the project
+
+1. core 
+   ```bash
+    - models : List of model class that we have used
+    - services : List of services database_service.dart and navigation_servcie.dart
+    - viewmodels : todo_detail_viewmodel.dart and todo_viewmodel.dart (contain business logic of the app)
+   ```
+2. pages
+   ```bash
+    - This is UI part and contain screens. We have three screens with name Splash, Todo List and Todod Details
+   ```
+
+3. utilities
+   ```bash
+    - `utilities` containes constans, helper funcitions, routes, paths, themes and etc
+   ```
 
 ## Assumptions
 
