@@ -62,5 +62,3 @@ https://github.com/iPatel007/todo_list/blob/main/assets/images/readme/imgStructu
 - The local database is sufficient for storing Todo items.
 - To store data locally we have use `sqflite` package.
 ```
-
-This implementation meets the project requirements, including local database integration, state management with `stacked`, and a user-friendly interface. You can now follow the setup instructions in the `README.md` to run the project.
